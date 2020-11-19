@@ -4,6 +4,8 @@
 function janigaga_theme_support() {
     //Add Dynamic title tag suppor 
     add_theme_support('title-tag');
+    add_theme_support( 'custom-logo');
+    add_theme_support('post-thumbnails');
 }
 
 add_action('after_setup_theme', 'janigaga_theme_support');
